@@ -27,14 +27,16 @@
       letter-spacing: 1px;
     }
 
-    .hero {
-      background: url('owner.JPG') center/cover no-repeat;
-      height: 90vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
+  .hero {
+  background: url('hero.jpg') center center no-repeat;
+  background-size: contain; /* 👈 this makes the whole image fit */
+  background-color: #000;   /* fills empty space nicely */
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 
     .hero h1 {
       font-size: 3rem;
